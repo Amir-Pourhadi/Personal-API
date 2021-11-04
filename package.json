@@ -7,6 +7,7 @@
   "license": "ISC",
   "homepage": "https://github.com/Amir-Pourhadi/Personal-API#readme",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
