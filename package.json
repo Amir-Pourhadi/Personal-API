@@ -15,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/Amir-Pourhadi/Personal-API/issues"
+  },
+  "dependencies": {
+    "mailchimp-api-v3": "^1.15.0"
   }
 }
