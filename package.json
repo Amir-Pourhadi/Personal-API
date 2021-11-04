@@ -1,0 +1,19 @@
+{
+  "name": "personal-api",
+  "version": "1.0.0",
+  "description": "Amir Pourhadi's personal API",
+  "main": "server.js",
+  "author": "Amir Pourhadi",
+  "license": "ISC",
+  "homepage": "https://github.com/Amir-Pourhadi/Personal-API#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-Pourhadi/Personal-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amir-Pourhadi/Personal-API/issues"
+  }
+}
