@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 const Mailchimp = require("mailchimp-api-v3");
 const cors = require("cors");
 require("dotenv").config();
@@ -25,12 +24,12 @@ app.get("/api/memberAdd", (req, res) => {
     },
     (err, result) => {
       if (err) {
-        res.status(500).send(err);
+        res.send(err);
       } else {
-        res.status(200).send(result);
+        res.send(result);
       }
     }
   );
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port);
